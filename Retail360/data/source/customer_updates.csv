@@ -1,5 +1,0 @@
-customer_id,customer_name,email,city,state,country,updated_at
-1002,Diya Patel,diya.patel@example.com,Thane,Maharashtra,IN,2025-06-01 10:00:00
-1004,Meera Iyer,meera.iyer@example.com,Mysuru,Karnataka,IN,2025-06-03 12:00:00
-1006,Sara Khan,sara.khan@example.com,Pune,Maharashtra,IN,2025-06-05 09:00:00
-1001,Aarav Sharma,aarav@example.com,Pune,Maharashtra,IN,2025-06-07 08:30:00

@@ -1,9 +1,0 @@
-customer_id,customer_name,email,city,state,country,created_at
-1001,Aarav Sharma,aarav@example.com,Pune,Maharashtra,IN,2025-01-10 09:15:00
-1002,Diya Patel,diya@example.com,Mumbai,Maharashtra,IN,2025-01-12 10:30:00
-1003,Kabir Singh,kabir@example.com,Delhi,Delhi,IN,2025-02-01 11:00:00
-1004,Meera Iyer,meera@example.com,Bengaluru,Karnataka,IN,2025-02-15 12:20:00
-1005,Arjun Verma,arjun@example.com,Hyderabad,Telangana,IN,2025-03-03 08:45:00
-1006,Sara Khan,sara@example.com,Nagpur,Maharashtra,IN,2025-03-15 14:10:00
-1007,Rohan Das,rohan@example.com,Kolkata,West Bengal,IN,2025-04-02 16:00:00
-1008,Ananya Rao,ananya@example.com,Chennai,Tamil Nadu,IN,2025-04-18 09:30:00
