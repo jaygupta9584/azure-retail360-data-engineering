@@ -1,0 +1,18 @@
+{
+  "project_name": "Retail360",
+  "environment": "dev",
+  "source_format": "csv",
+  "source_tables": [
+    "customers",
+    "customer_updates",
+    "products",
+    "orders",
+    "order_items",
+    "payments"
+  ],
+  "layers": {
+    "bronze": "retail_bronze",
+    "silver": "retail_silver",
+    "gold": "retail_gold"
+  }
+}
