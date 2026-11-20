@@ -1,19 +1,16 @@
 # Databricks notebook source
-# MAGIC %md
-# MAGIC # 02 — Silver cleansing (starter)
-# MAGIC Add explicit schemas, standardization, deduplication and quarantine logic here.
+# /// script
+# [tool.databricks.environment]
+# environment_version = "6"
+# ///
+# DBTITLE 1,Cell 1
+# MAGIC %run ../../Project_SetUp
 
 # COMMAND ----------
+
 from pyspark.sql import functions as F
 from pyspark.sql.window import Window
 
-catalog_name = "<catalog>"
-bronze_schema = "retail_bronze"
-silver_schema = "retail_silver"
-
-spark.sql(f"CREATE SCHEMA IF NOT EXISTS {catalog_name}.{silver_schema}")
-
-# COMMAND ----------
 # Example: clean customers and keep the latest record per customer_id.
 customers = spark.table(f"{catalog_name}.{bronze_schema}.customers")
 
